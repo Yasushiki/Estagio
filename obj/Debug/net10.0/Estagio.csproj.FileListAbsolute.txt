@@ -1,0 +1,14 @@
+/home/victor/Estagio/bin/Debug/net10.0/Estagio
+/home/victor/Estagio/bin/Debug/net10.0/Estagio.deps.json
+/home/victor/Estagio/bin/Debug/net10.0/Estagio.runtimeconfig.json
+/home/victor/Estagio/bin/Debug/net10.0/Estagio.dll
+/home/victor/Estagio/bin/Debug/net10.0/Estagio.pdb
+/home/victor/Estagio/obj/Debug/net10.0/Estagio.GeneratedMSBuildEditorConfig.editorconfig
+/home/victor/Estagio/obj/Debug/net10.0/Estagio.AssemblyInfoInputs.cache
+/home/victor/Estagio/obj/Debug/net10.0/Estagio.AssemblyInfo.cs
+/home/victor/Estagio/obj/Debug/net10.0/Estagio.csproj.CoreCompileInputs.cache
+/home/victor/Estagio/obj/Debug/net10.0/Estagio.dll
+/home/victor/Estagio/obj/Debug/net10.0/refint/Estagio.dll
+/home/victor/Estagio/obj/Debug/net10.0/Estagio.pdb
+/home/victor/Estagio/obj/Debug/net10.0/Estagio.genruntimeconfig.cache
+/home/victor/Estagio/obj/Debug/net10.0/ref/Estagio.dll
