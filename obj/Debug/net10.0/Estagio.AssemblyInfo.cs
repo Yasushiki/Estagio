@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Estagio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ee9a94c3baafabcfa739cac0dcc393f67348c93")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19b37f4953b900958024bbb7a7de38be7254a4ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("Estagio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Estagio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

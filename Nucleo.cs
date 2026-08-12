@@ -17,4 +17,12 @@ public class Nucleo
         EstadoCritico = Energia <= EnergiaCritica;
     }
 
+    public void GanharEnergia(int q)
+    {
+        Energia += q;
+        EstadoCritico = Energia <= EnergiaCritica;
+    }
+
+    
+
 }
