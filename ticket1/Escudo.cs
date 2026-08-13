@@ -1,4 +1,4 @@
-namespace Estagio;
+namespace Estagio.ticket1;
 
 public class Escudo
 {

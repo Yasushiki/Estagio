@@ -12,3 +12,4 @@
 /home/victor/Estagio/obj/Debug/net10.0/Estagio.pdb
 /home/victor/Estagio/obj/Debug/net10.0/Estagio.genruntimeconfig.cache
 /home/victor/Estagio/obj/Debug/net10.0/ref/Estagio.dll
+/home/victor/Estagio/obj/Debug/net10.0/Estagio.sourcelink.json
