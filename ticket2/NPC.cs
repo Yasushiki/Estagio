@@ -14,15 +14,18 @@ class NPC
     public void VirarDesempregado()
     {
         TrabalhoAtual = _trabalhoDesempregado;
+        Console.WriteLine($"Trabalho atual: {TrabalhoAtual.Funcao}");
     }
     public void VirarOperadorCanhao()
     {
         TrabalhoAtual = _trabalhoOperadorCanhao;
+        Console.WriteLine($"Trabalho atual: {TrabalhoAtual.Funcao}");
     }
 
     public void VirarMecanicoMotor()
     {
         TrabalhoAtual = _trabalhoMecanicoMotor;
+        Console.WriteLine($"Trabalho atual: {TrabalhoAtual.Funcao}");
     }
 
     
