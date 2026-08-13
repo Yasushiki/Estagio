@@ -1,4 +1,4 @@
-namespace Estagio.ticket1;
+namespace Estagio.Ticket1;
 
 public class Luz
 {

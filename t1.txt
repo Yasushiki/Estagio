@@ -1,9 +1,9 @@
         // Iniciar as classes
-        Nucleo nucleo = new Nucleo();
-        OrquestradorCritico orqCrit = new OrquestradorCritico();
-        Escudo escudo = new Escudo();
-        Painel painel = new Painel();
-        Luz luz = new Luz();
+        Nucleo nucleo = new();
+        OrquestradorCritico orqCrit = new();
+        Escudo escudo = new();
+        Painel painel = new();
+        Luz luz = new();
 
         
         Console.WriteLine($"Energia do núcleo: {nucleo.Energia}");
