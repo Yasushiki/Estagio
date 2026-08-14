@@ -1,3 +1,5 @@
+using Estagio.Ticket2.StatesTrabalho;
+
 namespace Estagio.Ticket2;
 
 /// <summary>
