@@ -98,10 +98,6 @@ public class Nave
     /// </summary>
     public void Atirar()
     {
-        Console.WriteLine();
-        Console.WriteLine($"Arma atual: {_arma.Nome}");
-        Console.WriteLine($"Tipo de dano: {_arma.TipoDano}");
-        Console.WriteLine($"Dano da arma: { (_arma.Dano+_arma.Bonus)*_arma.Mult }");
-        Console.WriteLine();
+        _arma.Atirar();
     }
 }

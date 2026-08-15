@@ -20,5 +20,14 @@ public abstract class ArmaDecorator(IArma arma) : IArma
     public virtual int Dano => _arma.Dano;
     public virtual int Mult => _arma.Mult;
     public virtual int Bonus => _arma.Bonus;
+    public virtual int DanoTotal => (Dano+Bonus)*Mult;
+    public void Atirar()
+    {
+        Console.WriteLine();
+        Console.WriteLine($"Arma atual: {Nome}");
+        Console.WriteLine($"Tipo de dano: {TipoDano}");
+        Console.WriteLine($"Dano da arma: {DanoTotal}");
+        Console.WriteLine();
+    }
     public virtual string TipoDano => _arma.TipoDano;
 }

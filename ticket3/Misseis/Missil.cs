@@ -10,9 +10,17 @@ public class Missil : IArma
 {
     public virtual string Nome => "Míssil";
     public virtual string NomeBase => "Míssil";
-    
     public int Dano => 20;
     public int Mult => 1;
     public int Bonus => 0;
+    public int DanoTotal => (Dano+Bonus)*Mult;
+    public void Atirar()
+    {
+        Console.WriteLine();
+        Console.WriteLine($"Arma atual: {Nome}");
+        Console.WriteLine($"Tipo de dano: {TipoDano}");
+        Console.WriteLine($"Dano da arma: {DanoTotal}");
+        Console.WriteLine();
+    }
     public string TipoDano => "Unitário";
 }

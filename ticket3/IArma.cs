@@ -34,6 +34,17 @@ public interface IArma
     /// Bônus de dano fixo aplicado à arma.
     /// </summary>
     public int Bonus { get; }
+
+    /// <summary>
+    /// Dano total da arma após o bônus e o multiplicador.
+    /// </summary>
+    /// <value></value>
+    public int DanoTotal { get; }
+
+    /// <summary>
+    /// Método da arma para atirar.
+    /// </summary>
+    public void Atirar();
     
     /// <summary>
     /// Descrição do tipo de dano causado pela arma e pelos efeitos.

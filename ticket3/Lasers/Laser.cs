@@ -13,5 +13,14 @@ public class Laser : IArma
     public int Dano => 5;
     public int Mult => 1;
     public int Bonus => 0;
+    public int DanoTotal => (Dano+Bonus)*Mult;
+    public void Atirar()
+    {
+        Console.WriteLine();
+        Console.WriteLine($"Arma atual: {Nome}");
+        Console.WriteLine($"Tipo de dano: {TipoDano}");
+        Console.WriteLine($"Dano da arma: {DanoTotal}");
+        Console.WriteLine();
+    }
     public string TipoDano => "Contínuo (por segundo)";
 }
