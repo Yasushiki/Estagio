@@ -5,8 +5,17 @@ using System.Collections.Generic;
 
 namespace Estagio.Ticket3;
 
+/// <summary>
+/// Implementa o padrão criacional Factory.
+/// Fábrica responsável por centralizar a criação das armas base
+/// e seus decoradores.
+/// </summary>
 public class ArmaFactory
 {
+    /// <summary>
+    /// Dicionário que mapeia o nome da arma base para as
+    /// funções que criam os decoradores aplicáveis.
+    /// </summary>
     public static readonly Dictionary<string, List<(string Nome, Func<IArma, IArma> CriarEfeito)>> Armas = new()
     {
         ["Desarmado"] = [],
@@ -20,6 +29,9 @@ public class ArmaFactory
         ]
     };
 
+    /// <summary>
+    /// Funções que criam as armas base.
+    /// </summary>
     public static IArma CDesarmado() => new Desarmado();
     public static IArma CLaser() => new Laser();
     public static IArma CMissil() => new Missil();
