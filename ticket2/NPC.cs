@@ -30,8 +30,6 @@ class NPC
         Console.WriteLine($"Trabalho atual: {TrabalhoAtual.Funcao}");
     }
 
-    
-
     public void Trabalhar()
     {
         Console.WriteLine($"Trabalho atual: {TrabalhoAtual.Funcao}");
